@@ -1,0 +1,20 @@
+.con{
+    height:50vh;
+}
+.btn{
+    margin:200px;
+    align-items: center;
+
+}
+section{
+   
+    background-color: #777;
+    padding:50px ;
+    margin:20px;
+}
+section h1{
+    text-align: center;
+}
+h3,h2{
+    color: rgba(193, 199, 204, 0.808);
+}
