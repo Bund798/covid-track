@@ -1,22 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>COVID-TRACK</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="https://kit.fontawesome.com/36d4a66813.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--CSS LINK-->
     <link rel="stylesheet" href="style.css">
+    <!--FONT LINK-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--ICON LINK-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
  
   <body  style="background: linear-gradient(90deg, #0e0e0e, #171717, #1e1e1e, #262626, #2e2e2e, #363636, #3e3e3e, #474747, #4f4f4f, #585858, #616161, #6a6a6a);">
    
-   <section> <h1 >COVID TRACK</h1>
-  <hr ></section>
+   <section> <h1 ><img src="./image/covid-19.png" alt="" width=50 class="float-left">
+  COVID-TRACK  </h1>
+    
+      <hr>
+     </section>
+<!--LAST REFRESHED--> 
+  <aside id="last-update" class="float-right"><h6>Last-Refreshed:</h6></aside >
      <div class="container">
-       <!--GLOBAL-->
+<!--GLOBAL-->
 <div class="row ">       
 <div class="col-lg-4 " id="card-1">
 <h3>CASES:</h3>
@@ -29,22 +39,25 @@
 </div>
 </div>
 <hr>
-
-<!--Current location-->
-<button class="btn btn-success " onclick="geoLocation()" > click to get your location coordinate</button>
-         
-         
-         <ul class=" bg-success">
-           
-        </ul>
-          <h1 id="demo"></h1>
-
-<div class="last-update"></div>
-
-
-
-         
+ <!--STATE INFO-->
+<div class="row">
+ 
+  <div id="state" class="col-lg-6">
+    <h2 class="head">INDIAN STATE INFO</h2>
+    <hr><hr>
+  </div>
+ <div class="flaot-right col-lg-6">
+  <img src="./image/people-wore-medical-masks-to-prevent-coronavirus-2496151-2088552.webp" alt="" width=500 >
  </div>
+ </div>
+ <hr>
+ <br>
+</div>
+<!--FOOTER-->
+<div class="footer">
+  <a href="https://github.com/Bund798" target="_blank"><i class="fa fa-github icon"></i></a>
+</div>
+
       <script src="script.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
